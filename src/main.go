@@ -70,7 +70,7 @@ func main() {
 		WriteTimeout:   config.TimeoutSeconds,
 		MaxHeaderBytes: 1 << 20,
 	}
-	s.ListenAndServe()
+	_ = s.ListenAndServe()
 
 	PrintLogEntry(INFO, "Ending Service...")
 }
