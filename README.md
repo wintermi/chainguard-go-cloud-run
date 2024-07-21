@@ -6,7 +6,7 @@
 
 ## Description
 
-An example micro service written in [Go](https://go.dev/) and the [Gin Web Framework](https://gin-gonic.com/). Container images are built using [Google Cloud Build](https://cloud.google.com/build) and the [Chaninguard Images](https://www.chainguard.dev/chainguard-images) ready for deploytment to [Google Cloud Run](https://cloud.google.com/run).
+An example micro service written in [Go](https://go.dev/) and the [Gin Web Framework](https://gin-gonic.com/). Container images are built using [Google Cloud Build](https://cloud.google.com/build) and the [Chainguard Images](https://www.chainguard.dev/chainguard-images) ready for deployment to [Google Cloud Run](https://cloud.google.com/run).
 
 ## License
 

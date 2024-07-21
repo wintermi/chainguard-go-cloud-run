@@ -34,12 +34,15 @@ jobs:
 
       - name: Install Go Dependencies
         run: go get ./...
+        working-directory: src
 
       - name: Execute Go Build
         run: go build -v ./...
+        working-directory: src
 
       - name: Execute Go Test
         run: go test -v ./...
+        working-directory: src
 
   golangci:
     name: lint
@@ -57,3 +60,4 @@ jobs:
         with:
           version: v1.59.0
           args: --timeout=10m
+          working-directory: src
