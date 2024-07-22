@@ -10,7 +10,7 @@ An example micro service written in Go using the Gin Web Framework. Container im
 
 In summary, the following components are used by this project:
 
--   [Go](https://go.dev/)
+-   [Go Programming Language](https://go.dev/)
 -   [Gin Web Framework](https://gin-gonic.com/)
 -   [Chainguard Images](https://www.chainguard.dev/chainguard-images)
 -   [Google Cloud Build](https://cloud.google.com/build)
