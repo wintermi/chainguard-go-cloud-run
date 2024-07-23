@@ -15,7 +15,7 @@
 FROM cgr.dev/chainguard/go AS builder
 
 WORKDIR /work
-COPY service/ /work/
+COPY build/ /work/
 RUN go build -ldflags "-s -w" -o "service" .
 
 FROM cgr.dev/chainguard/glibc-dynamic
