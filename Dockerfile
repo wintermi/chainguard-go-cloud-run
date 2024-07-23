@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM cgr.dev/chainguard/go AS build
+FROM cgr.dev/chainguard/go AS builder
 
 WORKDIR /work
-COPY src/ /work/
+COPY build/ /work/
 RUN go build -ldflags "-s -w" -o "service" .
 
 FROM cgr.dev/chainguard/glibc-dynamic
-COPY --from=build /work/service /app/service
+COPY --from=builder /work/service /app/service
 CMD ["/app/service"]
