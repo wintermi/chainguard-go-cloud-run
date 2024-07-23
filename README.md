@@ -1,7 +1,7 @@
 # Example Go Cloud Run Micro Service using the Chainguard Images
 
 [![Workflows](https://github.com/wintermi/chainguard-go-cloud-run/workflows/Go/badge.svg)](https://github.com/wintermi/chainguard-go-cloud-run/actions)
-[![Go Report](https://goreportcard.com/badge/github.com/wintermi/chainguard-go-cloud-run)](https://goreportcard.com/report/github.com/wintermi/chainguard-go-cloud-run)
+[![Go Report](https://goreportcard.com/badge/github.com/wintermi/chainguard-go-cloud-run/service)](https://goreportcard.com/report/github.com/wintermi/chainguard-go-cloud-run/service)
 [![License](https://img.shields.io/github/license/wintermi/chainguard-go-cloud-run)](https://github.com/wintermi/chainguard-go-cloud-run/blob/main/LICENSE)
 
 ## Description
