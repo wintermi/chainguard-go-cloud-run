@@ -1,6 +1,6 @@
 module github.com/wintermi/chainguard-go-cloud-run/service
 
-go 1.24.2
+go 1.23.8
 
 require github.com/gin-gonic/gin v1.10.0
 
